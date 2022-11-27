@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+    <style>
+
+        body{
+
+            background: black;
+
+        }
+
+    </style>
+
+<body>
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<audio id="myAudio"><source src="s.mp3" type="audio/mpeg"></audio>
+
+      
+
+<button onclick="playAudio()">Turn on the light</button>
+
+<button onclick="off()">Turn off the light</button>
+
+<img id="myImage" src="off.jpg" style="width:100vw,height:100%">
+
+</body>
+
+<script>
+
+    var x = document.getElementById("myAudio");
+
+    function playAudio()
+
+    { 
+
+    x.play(); 
+
+    document.getElementById('myImage').src='on.jpg';
+
+    }
+
+    function off()
+
+    {
+
+    x.play();
+
+    document.getElementById('myImage').src='off.jpg';
+
+  }
+
+</script>
+
+</html>
